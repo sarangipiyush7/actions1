@@ -28,8 +28,8 @@ jobs:
       with:
         java-version: '11'
         distribution: 'temurin'
-    - name: grant excute permission of Gradlew
-      run: chmod +x Gradlew
+    - name: Grant excute permission of gradlew
+      run: chmod +x gradlew
     - name: build with Gradle
       run: ./gradlew build
  
